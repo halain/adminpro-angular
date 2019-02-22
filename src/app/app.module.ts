@@ -6,11 +6,13 @@ import { AppRoutingModule } from './app-routing.module';
 
 // Modulos
 import { PagesModule } from './pages/pages.module';
+import { FormsModule } from '@angular/forms';
 
 // COmponentes
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './login/register.component';
+
 
 
 @NgModule({
@@ -22,6 +24,7 @@ import { RegisterComponent } from './login/register.component';
   imports: [
     BrowserModule,
     PagesModule,
+    FormsModule,
     AppRoutingModule
   ],
   providers: [],
