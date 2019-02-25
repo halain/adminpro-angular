@@ -4,6 +4,10 @@ Author: Wrappixel
 Email: niravjoshi87@gmail.com
 File: js
 */
+
+// funcion agregada para poder cargar estos plugins desde angular directamente en un componente.
+function init_plugins() {
+
 $(function() {
     "use strict";
     $(function() {
@@ -155,3 +159,5 @@ $(function() {
     });
 
 });
+
+}
